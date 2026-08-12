@@ -207,3 +207,41 @@ font-size:50px;
 color:#c40000;
 margin-bottom:10px;
 }
+/* Barre normale */
+header {
+    height: 90px;
+    padding: 15px 8%;
+    transition: all 0.3s ease;
+}
+
+/* Barre réduite quand on descend */
+header.scrolled {
+    height: 65px;
+    padding: 8px 8%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Logo normal */
+.logo img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+/* Logo réduit */
+header.scrolled .logo img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Nom SONUDA normal */
+.logo h2 {
+    font-size: 28px;
+    transition: all 0.3s ease;
+}
+
+/* Nom réduit */
+header.scrolled .logo h2 {
+    font-size: 22px;
+}
