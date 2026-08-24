@@ -424,3 +424,41 @@ header.scrolled .logo h2 {
     color: #c40000;
     font-weight: 600;
 }
+
+.social-contact {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.social-contact h4 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.social-contact .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-contact .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    background: #f0f0f0;
+    color: #222;
+    border-radius: 50%;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-contact .social-links a:hover {
+    background: #c40000;
+    color: #fff;
+    transform: translateY(-3px);
+}
